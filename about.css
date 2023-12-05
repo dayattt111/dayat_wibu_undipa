@@ -1,0 +1,97 @@
+*{
+    list-style-type: none;
+    object-fit: cover;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    /* background-image: url(close-up-hand-writing-notebook-top-view.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2000px;
+    font-family: cursive;
+}
+nav{
+    position: relative;
+    color: brown;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    padding: 0px 0px 0px 50px;
+    height: 100px;
+}
+.navbar ul{
+    padding: 0px 50px 0px 0px;
+    list-style-type: none;
+    display: flex;
+}
+.navbar li{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 30px;
+    list-style-type: none;
+}
+.navbar a{
+    color: brown;
+    text-decoration: none;
+}
+main{
+    padding-left: 50px;
+    color: burlywood;
+}
+.kepala{
+    margin: 0;
+    padding: 0px 0px 0px 200px;
+}
+.flex-kpl{
+    font-weight: bold;
+    padding: 0px 0px 0px 150px;
+    display: flex;
+}
+.flex-kpl li{
+    padding: 0px 20px 0 0px;
+    /* border-left: solid black ; */
+    border-right: solid;
+}
+
+.card1{
+    background-color: burlywood;
+    width: 100%;
+}
+.card1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1 li{
+    padding: 20px;
+}
+.card1 li img{
+    height: 200px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.card2 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card2 li{
+    padding: 20px;
+}
+.card2 li img{
+    border-radius: 50px;
+    height: 200px;
+    width: 300px;
+}
+footer{
+    color: brown;
+    background-color: burlywood;
+}

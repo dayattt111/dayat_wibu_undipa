@@ -1,0 +1,107 @@
+*{
+    font-family: cursive;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 0;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con1{
+    color: burlywood;
+    background-color: brown;
+    margin: 0;
+    flex-grow: 1;
+    width: 30%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.con1 a{
+    font-style: italic;
+    text-decoration: line-through;
+    color: burlywood;
+
+}
+.con1 li{
+    font-size: 15px;
+}
+.con1 li img{
+    border: burlywood solid 5px;
+    /* height: 250px; */
+    width: 250px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    margin-top: 40px;
+}
+.con1 ul{
+    /* height: auto; */
+    padding:20px;
+    margin: 0;
+
+}
+.con1 li{
+    margin: 0;
+    list-style-type: none;
+    padding: 5px;
+}
+.con2{
+    width: 80%;
+    color: brown;
+    background-color: burlywood;
+    height: 100vh;
+    margin: 0;
+    /* padding: 20px; */
+    flex-grow: 5;
+    display: flex;
+}
+.gb1{
+    background-color: brown;
+    padding: 50px 0px 40.5px 0px;
+    margin: 0;
+    width: 300px;
+    /* height: 573px; */
+}
+.gb1 li{
+    color: burlywood;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+#jarak{
+    padding-top: 40px;
+    /* margin: 20px; */
+}
+.flex2{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt1 a button{
+    color: burlywood;
+    font-size: 25px;
+    padding: 15px;
+    border: none;
+    border-radius: 80px 80px 40px 40px;
+    background-color: brown;
+    margin-top: 20px;
+}
+.txt1 a{
+    padding-left: 20px;
+}
+.txt1 h1{
+    padding: 0;
+    margin: 0;
+}
+.txt1 h3{
+    font-style: italic;
+}
